@@ -6,7 +6,6 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
    if (preferences.length < 3) return 0
 
    const decspription = (a, b) => `${a}  Spichonee loves  ${b}  Spichonee.`;    
-
    const cutCount = preferences.length - 2 // if preferences.length == 3 check only 1st 
    let triangles = 0, 
        current,
